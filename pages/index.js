@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Script from 'next/script'
 
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
@@ -48,9 +49,12 @@ export default function Home() {
         <title>ToGenre</title>
         <meta name="description" content="Convert text to other literary genres!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name='language' content='English' />
+        <meta name="author" content='Voldemar Ezerin'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4914934905972625" crossorigin="anonymous" ></Script>
         <div className={`${styles.header} ${styles.cssTyping}`} >
           <h1>ToGenre</h1>
           <p>convert text to other literary genres!</p>
