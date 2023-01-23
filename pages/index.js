@@ -46,11 +46,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ToGenre</title>
-        <meta name="description" content="Convert text to other literary genres!" />
+        <title>ToGenre - Top AI Powered Text To Literary Genres Converter</title>
+        <meta name="description" content="Convert your text to many different literary genres! Thanks to the AI behind the scenes, different text is returned upon each text conversion, so you can get quality genre literature." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name='language' content='English' />
         <meta name="author" content='Voldemar Ezerin'/>
+        <meta property='og:title' content='ToGenre - AI Powered Literary Genre Converter' />
+        <meta property='og:url' content='togenre.com' />
+        <meta property='og:description' content='Convert your text to many different literary genres! Thanks to the AI behind the scenes, different text is returned upon each text conversion, so you can get quality genre literature.' />
+        <meta property='og:image' content='/page.png'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
