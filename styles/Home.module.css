@@ -17,12 +17,9 @@
 }
 
 .content {
-  width: 100%;
   display: grid;
   justify-content: center;
-  align-items: stretch;
   grid-template-columns: 1fr 1fr;
-  height: 100%;
   gap: 10px;
 }
 
