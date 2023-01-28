@@ -46,7 +46,10 @@ export default function Home() {
   return (
     <>
       <Head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4914934905972625" crossOrigin="anonymous" />
+        {/*<!-- Ezoic Code -->*/}
+        <script>var ezoicId = 429334;</script>
+        <script async type="text/javascript" src="//go.ezoic.net/ezoic/ezoic.js"></script>
+        {/*<!-- Ezoic Code -->*/}
         <title>ToGenre - Top AI Powered Text To Literary Genres Converter</title>
         <meta name="description" content="Convert your text to many different literary genres! Thanks to the AI behind the scenes, different text is returned upon each text conversion, so you can get quality genre literature." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
